@@ -1,0 +1,36 @@
+@media (min-width: 500px){
+    .nav_container {
+        right: 20px;
+        top: 20px;
+        padding-top: 3px;
+        position: fixed;
+        z-index: +10;
+        width: 240px;
+    }
+}
+    
+    
+nav{
+    border-left: 1px solid #ccc;
+}
+footer{
+    font-size: 0.8rem;
+}
+nav a {
+    color: #555;
+    display: block;
+    text-decoration: none;
+    line-height: 1.6;
+    padding: 5px 15px;
+    margin: 0;
+    border-left: 2px solid transparent;
+    -moz-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+nav a.active {
+    border-left: 2px solid var(--primary-color);
+}

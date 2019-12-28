@@ -1,0 +1,10 @@
+
+@media (min-width: 500px){
+    #content_wrapper {
+        overflow: hidden;
+        position: relative;
+        min-height: 480px;
+        padding: 20px 280px 0 20px;
+    }
+}
+    
